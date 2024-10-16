@@ -1,0 +1,81 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 211, 70);
+  height: 100vh;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 130px;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+@media screen and (max-width: 808px) {
+  .mainContainer {
+    width: 90%;
+    height: 90%;
+    margin-top: 50px;
+  }
+}
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fruitsContainer1 {
+  display: flex;
+  flex-direction: column;
+}
+.fruitsContainer2 {
+  display: flex;
+  flex-direction: column;
+}
+.fruit {
+  margin-top: 50px;
+  margin-right: 30px;
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width: 700px) {
+  .fruit {
+    width: 200px;
+    height: 200px;
+  }
+  @media screen and (max-width: 500px) {
+    .fruit {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.btn {
+  background-color: rgb(97, 97, 233);
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 55px;
+}
+@media screen and (max-width: 580px) {
+  h1 {
+    font-size: large;
+  }
+  .subContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 325px) {
+  .fruit {
+   width: 150px;
+   height: 150px;
+  }
+  
+}

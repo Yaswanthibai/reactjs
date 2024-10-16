@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(10, 9, 9);
+    height: 100vh;
+  }
+  h1 {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 20px;
+  }
+  .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+  
+  }
+  .acceleration {
+      color: white;
+      border: none;
+      border-radius: 5px;
+      background-color:rgb(49, 49, 217);
+      width: 120px;
+      height: 40px;
+      font-size: medium;
+      cursor: pointer;
+  }
+  .break{
+      width: 120px;
+      height: 40px;
+      font-size: medium;
+      border-radius: 5px;
+      border-color: white;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+  }
+  

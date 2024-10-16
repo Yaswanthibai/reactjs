@@ -1,0 +1,57 @@
+/* Write your code here. */
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+  }
+  .boxContainer {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+  
+  }
+  .heading{
+      font-family: roboto;
+      font-size: 50px;
+  }
+  .boxes{
+      font-size:Bree Serif ;
+      color: #ffffff;
+      font-weight: bold;
+     
+  }
+  
+  
+  .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #fbbf24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+  
+  
+  }
+  .box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #38bdf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+  }
+  .box3 {
+    width: 300px;
+    height: 300px;
+    background-color: #ec4899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }

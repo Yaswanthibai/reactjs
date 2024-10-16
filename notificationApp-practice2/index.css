@@ -1,0 +1,70 @@
+/* Write your code here. */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  .not {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bolder;
+  }
+  .notificationContainer{
+      display: flex;
+      flex-direction: column;
+      height: 65vh;
+      justify-content: space-between;
+    
+  }
+  
+  .not1{
+    height: 70px;
+    width: 600px;
+    background-color:#0b69ff ;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+  
+  }
+  .not2{
+      height: 70px;
+      width: 600px;
+      background-color: #2dca73;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+    
+    }
+  .not3{
+      height: 70px;
+      width: 600px;
+      background-color:  #ffb800;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+    
+    }
+    .not4{
+      height: 70px;
+      width: 600px;
+      background-color:#ff0b37 ;
+      display: flex;
+        align-items: center;
+      border-radius: 10px;
+     
+    }
+    img{
+      height: 30px;
+      width: 30px;
+      padding-left: 20px;
+    }
+    p{
+      padding-left: 20px;
+      font-family: Roboto;
+      font-size: large;
+      font-weight: 400;
+      color: #ffff;
+    }

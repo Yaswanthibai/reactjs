@@ -1,0 +1,41 @@
+/* Write your code here. */
+
+.SocialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/R.9e0629e29e7c15b95383aa9b164aac99?rik=s6A3kJ%2b42ag5mQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fBeautiful-night-Images-hd.jpg&ehk=%2bMNZcQ%2bfXnq9RTm%2b5JbfpLnGMwOHRdbR5pUhh9p2dLY%3d&risl=&pid=ImgRaw&r=0);
+  }
+  
+  .heading {
+    font-family: "Bree Serif";
+    font-size: 60px;
+    color: #ffffff;
+  }
+  .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button1 {
+    background-color: #eab308;
+    border-color: #eab308;
+  }
+  .button2 {
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  .button3 {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+  }
+  .button {
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-weight: 600;
+    font-family: "Roboto";
+  }
